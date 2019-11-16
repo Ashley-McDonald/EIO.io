@@ -1,10 +1,18 @@
 @font-face {
-  font-family: playFair;
-  src: url(fonts\PlayfairDisplay-Regular.otf);
+  font-family: 'playFairDisplay';
+  src: url('fonts/PlayfairDisplay-Regular.otf');
 }
 * {
-  font-family: playFair;
+  font-family: 'playFairDisplay', serif;
   /* border: 1px solid red; */
+}
+h1 {
+  font-size: 55px;
+  line-height: 75px;
+}
+h2 {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 18px;
 }
 .row {
   padding: 0;
@@ -21,9 +29,23 @@
 .navbar-nav li {
   text-transform: uppercase;
   margin: 25px 60px 0 60px;
+  font-size: 18px;
 }
 .jumbotron-div {
   margin-top: -40px;
   z-index: -10;
-  position: absolute;
+  position: relative;
+}
+.ourStory {
+  padding: 100px 0;
+}
+.ourStory h1,
+.ourStory h2 {
+  padding-left: 100px;
+}
+.ourStory p {
+  text-align: center;
+}
+.ourStory p:last-child {
+  padding-bottom: 50px;
 }

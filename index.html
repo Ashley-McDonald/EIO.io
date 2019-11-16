@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script&display=swap" rel="stylesheet">
 
   </head>
   <body>
@@ -22,11 +24,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Our Story <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Our Story</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Collections</a>
-          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Collections</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Wedding</a>
+                <a class="dropdown-item" href="#">Newborn</a>
+                <a class="dropdown-item" href="#">Family</a>
+              </div>
+            </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Heirlooms</a>
           </li>
@@ -40,11 +47,54 @@
 
     <!-- Jumbotron -->
     <div class="row jumbotron-div">
-      <div class="col-12 no-padding">
+      <div class="col-md-12 no-padding">
         <img class="img-fluid" src="img/EIO-5-e.png" alt="Wedding Photo">
       </div>
     </div>
     <!-- End Jumbotron -->
+
+    <!-- Our Story -->
+    <div class="row ourStory">
+      <div class="col-md-6 offset-md-1 justify-content-end ourStoryText">
+
+        <h1>OUR STORY</h1>
+        <h2>Wedding - Maternity - Newborn</h2>
+
+        <br><br>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+
+        <br>
+
+        <p>Risus commodo viverra maecenas accumsan lacus vel facilisis. Risus commodo viverra maecenas accumsan lacus vel facilisis. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+      </div>
+
+      <div class="col-md-4 offset-md-1 mt-auto">
+        <img src="img/EIO-6.png" alt="Our Story Photo">
+      </div>
+    </div>
+    <!-- End Our Story -->
+
+    <!-- Collections -->
+    <div class="row">
+      <div class="col-md-3 offset-md-1">
+        <h1>Collections</h1>
+        <h2>Your love story begins here...</h2>
+      </div>
+      <div class="col-md-2 offset-md-1 text-center">
+        <img class="img-fluid" src="img/wed-1.jpg" alt="Weddings">
+        <h2 class="pt-3">Weddings</h2>
+      </div>
+      <div class="col-md-2 text-center">
+        <img class="img-fluid" src="img/EIO-8.jpg" alt="Weddings">
+        <h2 class="pt-3">Maternity + Newborn</h2>
+      </div>
+      <div class="col-md-2 text-center">
+        <img class="img-fluid" src="img/EIO-7.jpg" alt="Weddings">
+        <h2 class="pt-3">Family</h2>
+      </div>
+    </div>
+    <!-- End Collections -->
 
     <!-- Boostrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
