@@ -18,6 +18,19 @@ h3 {
   font-family: 'Petit Formal Script', cursive;
   font-size: 40px;
 }
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+a {
+  color: #626262;
+}
+a:hover {
+  color: #d4b3ac;
+}
+a:active {
+  color: #626262;
+}
 .row {
   padding: 0;
   margin: 0;
@@ -34,6 +47,15 @@ h3 {
   text-transform: uppercase;
   margin: 25px 60px 0 60px;
   font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #626262;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #d4b3ac;
+}
+.navbar-light .navbar-nav .nav-link:active {
+  color: #626262;
 }
 .jumbotron-div {
   margin-top: -40px;
@@ -55,15 +77,27 @@ h3 {
 }
 .contactSection {
   color: white;
-  margin-top: 75px;
-  background: url('../img/Tina+Anthony-32.png') no-repeat center center;
+  margin: 50px 0 35px 0;
+  background: url('../img/Tina+Anthony-32.png') no-repeat bottom center;
   background-size: contain;
   /* background-image: url('../img/Tina+Anthony-32.png'); */
-  height: 1365px;
+  height: 1080px;
 }
 .contactSection p {
   font-size: 35px;
 }
 .btn-cu {
   padding: 15px 50px;
+}
+footer p {
+  font-size: 15px;
+}
+.pinkLink {
+  color: #d4b3ac;
+}
+.pinkLink:hover {
+  color: #436a6f;
+}
+.pinkLink:active {
+  color: #d4b3ac;
 }
