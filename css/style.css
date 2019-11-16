@@ -14,6 +14,10 @@ h2 {
   font-family: 'Petit Formal Script', cursive;
   font-size: 18px;
 }
+h3 {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 40px;
+}
 .row {
   padding: 0;
   margin: 0;
@@ -48,4 +52,18 @@ h2 {
 }
 .ourStory p:last-child {
   padding-bottom: 50px;
+}
+.contactSection {
+  color: white;
+  margin-top: 100px;
+  background: url('../img/Tina+Anthony-32.png') no-repeat center center;
+  background-size: contain;
+  /* background-image: url('../img/Tina+Anthony-32.png'); */
+  height: 1365px;
+}
+.contactSection p {
+  font-size: 35px;
+}
+.btn-cu {
+  padding: 15px 50px;
 }
