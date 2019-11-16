@@ -1,0 +1,29 @@
+@font-face {
+  font-family: playFair;
+  src: url(fonts\PlayfairDisplay-Regular.otf);
+}
+* {
+  font-family: playFair;
+  /* border: 1px solid red; */
+}
+.row {
+  padding: 0;
+  margin: 0;
+}
+.no-padding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.navbar-brand > img {
+  max-width: 25vw;
+  margin: 25px 0 0 50px;
+}
+.navbar-nav li {
+  text-transform: uppercase;
+  margin: 25px 60px 0 60px;
+}
+.jumbotron-div {
+  margin-top: -40px;
+  z-index: -10;
+  position: absolute;
+}
